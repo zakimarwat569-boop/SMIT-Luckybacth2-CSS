@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        nav{
+            background-color: rgb(58, 151, 201);
+            text-align: center;
+        }
+        ul{
+            list-style: none;
+            
+            
+        }
+        li{
+            display: inline-block;
+            margin: 9px;
+        }
+        a{
+            text-decoration: none;
+            color:black
+        }
+        a:hover{
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 3px 5px 3px black;
+        }
+        .zaki1{
+        text-transform: capitalize;
+        word-spacing: 6px;
+        text-shadow: 1px 1px 4px red;
+        }
+        .zaki2{
+           text-transform: capitalize;
+        word-spacing: 6px;
+        text-shadow: 1px 1px 4px red;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        .para{
+            text-transform: capitalize;
+            text-shadow: 1px 1px 3px black;
+            text-align: justify; 
+             text-indent: 250px; 
+        }
+        .para2{
+           text-transform: capitalize;
+            text-shadow: 1px 1px 3px black;
+            text-align: justify; 
+            font-size: 17px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .para::first-letter{
+            color: red;
+            font-size: 50px;
+        }
+        .para::first-line{
+            color: red;
+            font-size: 20px;
+        }
+        button{
+            width: 70px;
+            height: 30px;
+            padding: 4px 2px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            
+        }
+        button:hover{
+            background-color: darkblue;
+            width: 80px;
+            box-shadow: 4px 4px 3px black;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- ====navbar==== -->
+     <nav>
+        <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">About</a></li>
+        </ul>
+     </nav>
+     <!-- ====main==== -->
+      <main>
+            
+            <h1 class="zaki1">computer scince</h1>
+            <p class="para">Computer science is the study of computers, programming, algorithms, data, and technology used to solve real-world problems. It helps students understand how software and computer systems work. Computer science also includes programming, problem-solving, databases, artificial intelligence, networking, and cybersecurity, which are important areas in today’s rapidly growing world of technology.</p><br>
+            <h1 class="zaki2">web development</h1>
+            <p class="para2">Web development is the process of creating websites and web applications using HTML, CSS, JavaScript, and modern development tools. It allows developers to build attractive, responsive, and user-friendly websites. Web development also includes designing layouts, adding interactive features, improving performance, and creating websites that work smoothly on different devices and screen sizes.</p> <br><br>
+            <button>Click Me</button>
+            <br>
+
+      </main>
+</body>
+</html>

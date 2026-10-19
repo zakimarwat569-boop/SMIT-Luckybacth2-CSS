@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+     body{
+        background-color: rgb(86, 86, 246);
+     }
+      Form {
+        width: 25%;
+        margin-top: 100px;
+        border: 1px solid;
+        margin: auto;
+        box-sizing: border-box;
+        height: 660px;
+        border-radius: 15px;
+        padding: 6px 5px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h2 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 9px;
+        margin-bottom: 0;
+      }
+      .para1{
+        margin-left: 9px;
+      }
+      span {
+        margin-bottom: 15px;
+        display: inline-block;
+        margin-left: 9px;
+      }
+      .para2{
+        text-align: center;
+        
+      }
+      h4{
+        margin-left: 8px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      input {
+        display: block;
+        margin-left: 10px;
+        padding: 12px 12px;
+        box-sizing: border-box;
+        width: 90%;
+        margin-bottom: 8px;
+        border-radius: 8px;
+        border: 1px solid;
+        font-size: 15px;
+        
+      }
+      input:focus{
+        outline: none;
+      }
+      input[type="checkbox"] {
+        display: inline-block;
+        width: auto;
+        margin: 0 5px 0 0;
+        padding: 0;
+        vertical-align: middle;
+      }
+      /* input[type="submit"]{
+        cursor: pointer;
+      } */
+
+      #signup{
+        color:white ;
+        background-color: blue;
+      }
+      #signup:hover{
+        background-color: rgb(64, 64, 251);
+      }
+      #google{
+        color: white;
+        background-color: rgb(225, 46, 46);
+      }
+      #google:hover{
+        background-color: rgb(255, 71, 71);
+      }
+      #facebook{
+        color: white;
+        background-color: blue ;
+      }
+       #facebook:hover{
+        background-color: rgb(1, 1, 173) ;
+       }
+      #twitter{
+        color: white;
+        background-color: rgb(107, 191, 244);
+      }
+      #twitter:hover{
+        background-color: rgb(30, 158, 238);
+      }
+      .anchor{
+        text-decoration: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <form>
+      <h2>Ragistration</h2>
+      <p class="para1">Enter your details to register</p>
+      <input type="text" placeholder="First Name" />
+      <input type="text" placeholder="Last Name" />
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="password" />
+     
+      <span> <input type="checkbox" />I agree to the <a href="">terms and condation</a></span> 
+      <input type="submit" id="signup" value="Sign up" />
+      <hr />
+      <p class="para2">Already have account?<a href=""> Sign in </a></p>
+      <h4>Or continue with</h4>
+      <a href="https://www.google.com" class="anchor"><input type="submit"  id="google" value="Sign in with Google " /></a>
+      <a href="https://www.facebook.com" class="anchor"><input type="submit"  id="facebook" value="Sign in with Facebook" /></a>
+      <a href="https://www.twitter.com" class="anchor"><input type="submit"  id="twitter" value="Sign in with Twitter" /></a>
+    </form>
+  </body>
+</html>

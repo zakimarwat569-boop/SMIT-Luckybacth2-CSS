@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      form {
+        height: 500px;
+        width: 90%;
+        max-width: 350px;
+        border: 1px solid;
+        border-radius: 10px;
+        margin: 100px auto 0 auto;
+        padding: 40px 15px;
+        position: relative;
+        background-color: #fff8dc;
+        box-shadow: 1px 1px 10px black;
+      }
+      h2 {
+        text-align: center;
+        margin: 26px 0;
+      }
+      .box {
+        margin-top: 100px;
+      }
+      .name,
+      .password {
+        position: relative;
+      }
+      .fa-user,
+      .fa-unlock-keyhole {
+        left: 8px;
+        font-size: 21px;
+        position: absolute;
+        top: 27px;
+      }
+
+      input[type="text"],
+      input[type="password"],
+      button {
+        border-radius: 10px;
+        border: 1px solid;
+        padding: 9px 0px 9px 34px;
+        width: 100%;
+        outline: none;
+        margin-bottom: 15px;
+      }
+      .fa-circle-user {
+        margin: 10px auto 0 110px;
+        font-size: 65px;
+      }
+
+      button {
+        border-radius: 10px;
+        border: 1px solid;
+        padding-right: 40px;
+        width: 100%;
+        font-size: 20px;
+        outline: none;
+        margin: 15px 0;
+        color: white;
+        background-color: #1d4ed8;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <i class="fa-solid fa-circle-user"></i>
+      <h2>Login Form</h2>
+      <div class="box">
+        <div class="name">
+          <label for="username">Name</label>
+          <i class="fa-solid fa-user"></i>
+          <input type="text" id="username" maxlength="15" />
+        </div>
+        <div class="password">
+          <label for="password">Password</label>
+          <i class="fa-solid fa-unlock-keyhole"></i>
+          <input type="password" id="password" maxlength="8" />
+        </div>
+      </div>
+      <button><i class="fa-solid fa-right-to-bracket"></i></button>
+    </form>
+  </body>
+</html>
